@@ -4,8 +4,17 @@ public class HelloEmanuele {
 public static void main(String[] args) {
 System.out.println("Hello Emanuele!"); //stampa Hello nome
 
-//Array di caratteri con le lettere del nome emanuele
-char [] lettere = {'E','M','A','N','U','E','L','E'};
+Vector <Character> lettere = new Vector<>();
+lettere.add('e');
+lettere.add('m');
+lettere.add('a');
+lettere.add('n');
+lettere.add('u');
+lettere.add('e');
+lettere.add('l');
+lettere.add('e');
 
-    }
+for(Character lettera : lettere) {
+System.out.println(lettera);
+
 }
