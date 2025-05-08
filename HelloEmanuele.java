@@ -4,9 +4,12 @@ public class HelloEmanuele {
 public static void main(String[] args) {
 System.out.println("Hello Emanuele!"); //stampa Hello nome
 
-System.out.println("19/05/2007!"); //stampa Data di nascita
+//Array di caratteri con le lettere del nome emanuele
+char [] lettere = {'E','M','A','N','U','E','L','E'};
 
-System.out.println("Forza Napoli!"); //stampa squadra del cuore
-
-System.out.println("Pizza!"); //stampa cibo preferito
+//stampa le lettere dell'array
+for (char lettera : lettere) {
+    System.out.println(lettera + " ");
+        }
+    }
 }
