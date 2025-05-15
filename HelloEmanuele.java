@@ -9,4 +9,6 @@ System.out.println("19/05/2007!"); //stampa Data di nascita
 System.out.println("Forza Napoli!"); //stampa squadra del cuore
 
 System.out.println("Pizza!"); //stampa cibo preferito
+
+System.out.println("Ciao milazzo!!");
 }
